@@ -1,0 +1,312 @@
+
+.container {
+  width: 100%;
+  background-image: url('/public/images/Group 97.jpg');
+  background-size: 100% 100%;
+  z-index: -111;
+  margin-top: -210px;
+  margin-bottom: -290px;
+  padding: 50px 0;
+  overflow: hidden;
+}
+
+.EasyAccessProjects {
+  width: 100%;
+  margin: 100px auto;
+  margin-bottom: 300px;
+  margin-top: 190px; 
+}
+
+.EasyAccessProjects > h1 {
+  margin-bottom: 20px;
+  color: white;
+}
+
+.EasyAccessProjects > p {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  margin-right: 5%;
+}
+
+
+.EasyAccessProjects h1{
+  width: 75%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.EasyAccessProjects p{
+  width: 75%;
+  margin: auto;
+  text-align: center;
+}
+
+
+.cards {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+  column-gap: 33px;
+}
+
+
+.card {
+  width: 324px;
+  border: 2px solid white;
+  border-radius: 30px;
+  padding: 15px;
+  background: transparent;
+}
+
+.card div {
+  background-color: white;
+}
+
+.card > div {
+  border-radius: 20px;
+  padding: 12px;
+}
+
+.cardTop {
+  position: relative;
+}
+.cardTop .img > span {
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  /* z-index: 10; */
+  background-color: rgba(99, 96, 96, 0.747);
+  font-size: 14px;
+  color: white;
+  padding: 5px 10px 10px 10px;
+  border-radius:0 0 20px 20px;
+}
+
+.cardTop .img{
+  width: 100%;
+  border-radius: 20px;
+  height: 160px;
+  overflow: hidden;
+}
+.cardTop .img img{
+  width: 100%;
+}
+
+.imgBottom {
+  display: flex;
+  justify-content: end;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.imgBottom > img {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: -45px;
+  left: 15px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.socialLinks {
+  position: absolute;
+  top: 10px;
+  background-color: transparent;
+  list-style: none;
+  display: flex;
+}
+
+.socialLinks .icon {
+  background-color: transparent;
+  font-size: 16px;
+  margin-right: 5px;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  color: white;
+  cursor: pointer;
+}
+
+#globe {
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+}
+#globe:hover {
+  background-color: white;
+  color: black;
+}
+#twitter {
+  background-color: rgb(62, 62, 240);
+  border: 1px solid rgb(62, 62, 240);
+  color: white;
+}
+#twitter:hover {
+  background-color: white;
+  color: rgb(62, 62, 240);
+}
+#telegram {
+  background-color: rgb(19, 19, 233);
+  border: 1px solid rgb(19, 19, 233);
+  color: white;
+}
+#telegram:hover {
+  background-color: white;
+  color: rgb(19, 19, 233);
+}
+#discord {
+  background-color: rgb(45, 45, 247);
+  border: 1px solid rgb(45, 45, 247);
+  color: white;
+}
+#discord:hover {
+  background-color: white;
+  color: rgb(45, 45, 247);
+}
+
+.cardBottom {
+  padding-top: 20px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardBottom h1 {
+  background-color: transparent;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: left;
+  margin: 5px 0;
+}
+
+.cardBottom > span {
+  background-color: transparent;
+  text-align: left;
+  font-size: 24px;
+   font-weight: bold;
+  color: gray;
+  margin-bottom: 5px;
+}
+
+.cardBottom > button {
+  padding: 13px 10px;
+  background-color: rgb(167, 98, 199);
+  color: white;
+  border: 2px solid rgb(167, 98, 199);
+  border-radius: 8px;
+  text-align: left;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+.cardBottom > button:hover {
+  background-color: white;
+  color: rgb(167, 98, 199);
+}
+.usd,
+.participants {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 5px;
+}
+.usd p,
+.participants p {
+  background-color: transparent;
+  font-size: 18px;
+  margin-top: 3px;
+  text-align: left;
+}
+.usd span,
+.participants span {
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.cardBottom div:last-child {
+  display: flex;
+  justify-content: space-between;
+}
+
+.protocol img{
+  width: 40px;
+  height: 40px;
+}
+
+
+.SliderContainer{
+  display: none;
+  width: auto;
+  margin: 20px auto;
+  overflow-x: auto;
+}
+
+.SliderContainer::-webkit-scrollbar{
+  width: 0;
+}
+
+.SliderContainer .card{
+  margin-right: 20px;
+}
+.SliderContainer .card:first-child{
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 1150px){
+
+  .cards{
+    width: 90%;
+  }
+  }
+
+
+@media only screen and (max-width: 950px){
+  .cards{
+    width: 95%;
+  }
+
+}
+
+@media only screen and (max-width: 750px){
+  .container{
+    padding-top: 120px;
+    
+  }
+  .EasyAccessProjects h1{
+    width: 95%;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  
+  .EasyAccessProjects p{
+    width: 95%;
+    margin: auto;
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 1050px){
+  .cards{
+    display: none;
+  }
+  .SliderContainer{
+    display: flex;
+    overflow-x: scroll;
+  }
+  .SliderContainer .card{
+    min-width: 300px;
+  }
+}

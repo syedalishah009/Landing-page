@@ -1,0 +1,219 @@
+.tier {
+    position: relative;
+    width: 100%;
+    background-image: url(/public/images/back2.png);
+    background-size: 100% 100%;
+    color: white;
+
+}
+
+
+
+.res {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.Tcontents {
+    /* background-color: #3D29D0; */
+    color: black;
+    /* position: absolute; */
+    top: 30%;
+    width: 70vw;
+    margin: auto;
+    margin-top: 242px;
+    display: flex;
+}
+
+
+#Timg2{
+    display: none;
+}
+.tleft h1 {
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: -0.02em;
+    color: white;
+}
+
+.tleft p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    line-height: 35px;
+    margin-bottom: 24px;
+    color: white;
+}
+
+.tleft h5 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    margin-bottom: 30px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: white;
+}
+
+.tright {
+   
+    margin-top: 70px; 
+    /* width: 100%; */
+    color: white;
+
+}
+
+.tright img {
+    width: 38vw;
+    margin-top: 40px;
+    /* z-index: -111; */
+}
+
+
+
+
+.tBton {
+    display: flex;
+    gap: 40px;
+}
+
+.tBton .tbtn1 {
+    background: linear-gradient(134.5deg, #C25FFF 2.88%, #3D29D0 98.85%);
+    box-shadow: -2px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 191px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 4px 4px 4px 32px;
+}
+
+.tBton .tbtn1 button {
+    background: transparent;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 13px;
+    color: white;
+}
+
+.tBton .tbtn1 .arrowicons {
+    border: none;
+    background: transparent;
+    width: 34px;
+    height: 34px;
+    color: white;
+}
+
+.tBton .compage {
+    display: none;
+}
+.compage{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+   
+
+}
+.compage img{
+    height: 10px;
+    margin-top: -22px;
+}
+.compage p{
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 1150px) {
+    .tright img {
+        width: 412px;
+        margin-top: 106px;
+    }
+
+    .tBton .tbtn1 {
+        width: 159px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .Tcontents {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 180px;
+        /* justify-content: center; */
+        align-items: center;
+        overflow: hidden;
+    }
+    .tleft{
+        margin: 10% 5%;
+    }
+    #Timg2{
+        display: block;
+        /* width: 100%; */
+    }
+    #Timg{
+        display: none;
+    }
+    .tBton .tbtn1 {
+        width: 159px;
+    }
+    .tBton{
+        gap: 18px;
+    }
+    .back2img {
+        height: 1200px;
+
+    }
+
+    #hideBtn {
+        display: none;
+    }
+
+    .tBton .compage {
+        display: flex;
+       
+    }
+    .tright {
+        display: flex;
+        align-items: center;
+    }
+    .tright img{
+        margin-top: -80px;
+    }
+
+}
+
+
+@media only screen and (max-width: 750px){
+    .tier {
+        
+        background-image: url(/public/images/footer-back-2.png);
+        /* margin-top: 50px; */
+    }
+    .Tcontents{
+        margin-top: 100px;
+    }
+}
+
+
+@media only screen and (max-width: 550px){
+    .tier {
+        margin-top: 110px;
+    }
+}
+
+
+
+
+
